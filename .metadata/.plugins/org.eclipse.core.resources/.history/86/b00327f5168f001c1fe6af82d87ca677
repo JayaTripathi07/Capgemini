@@ -1,0 +1,39 @@
+
+public class Car {
+	private String name;
+    private int modelNo;
+    private String brand;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getModelNo() {
+		return modelNo;
+	}
+	public void setModelNo(int modelNo) {
+		this.modelNo = modelNo;
+	}
+	public String getBrand() {
+		return brand;
+	}
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+}
+
+public class TestCar{
+	public static void main(String[] args) {
+		
+		Student s = new Student();
+        s.setname("Radhika");
+        s.setrollNo(34);
+        s.setstream("CSE");
+        
+        System.out.println(s.getname());
+        System.out.println(s.getrollNo());
+        System.out.println(s.getstream());
+
+
+}

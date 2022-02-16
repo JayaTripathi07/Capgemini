@@ -1,0 +1,39 @@
+
+public class Student {
+		
+		String name;
+	    int rollNo;
+	    String stream;
+
+	public void setname(String name) {
+	        this.name = name;
+	    }
+
+	    public void setrollNo(int rollNo) {
+	        this.rollNo = rollNo;
+	    }
+
+	    public void setstream(String stream) {
+	        this.stream = stream;
+	    }
+	        public String getname() {
+	        return name;
+	    }
+
+	    public int getrollNo() {
+	        return rollNo;
+	    }
+
+	    public String getstream() {
+	        return stream;
+	}
+
+	public static void main(String[] args) {
+	
+		Student s = new Student();
+        s.setname("Radhika");
+        s.setrollNo(34);
+        s.setstream("CSE");
+	}
+
+}
